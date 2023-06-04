@@ -1,6 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
+    $floor = $_POST['floor'];
+    $аge = $_POST['аge'];
     $email = $_POST['email'];
     $message = $_POST['message'];
 
